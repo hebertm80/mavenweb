@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="4.296" errors="0" skipped="0" tests="2" name="org.mahebert.maven.dao.BookDaoTest">
+<testsuite failures="0" time="4.661" errors="0" skipped="0" tests="2" name="org.mahebert.maven.dao.BookDaoTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/home/hebdeb/dev/jdk1.7.0_07/jre/lib/i386"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/hebdeb/dev/workspace/20130629/mavenparent/mavenpersist"/>
+    <property name="user.dir" value="/home/hebdeb/dev/workspace/20130629/mavenparent"/>
     <property name="java.runtime.version" value="1.7.0_07-b10"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/home/hebdeb/dev/jdk1.7.0_07/jre/lib/endorsed"/>
@@ -24,7 +24,7 @@
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Linux"/>
-    <property name="classworlds.conf" value="/home/hebdeb/dev/workspace/20130629/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf5990987535956811013.tmp"/>
+    <property name="classworlds.conf" value="/home/hebdeb/dev/workspace/20130629/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf1467727243072172570.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/home/hebdeb/dev/jdk1.7.0_07/jre/lib/i386/server:/home/hebdeb/dev/jdk1.7.0_07/jre/lib/i386:/home/hebdeb/dev/jdk1.7.0_07/jre/../lib/i386:/home/hebdeb/dev/jdk1.7.0_07/jre/lib/i386/client:/home/hebdeb/dev/jdk1.7.0_07/jre/lib/i386::/usr/java/packages/lib/i386:/lib:/usr/lib"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -41,7 +41,7 @@
     <property name="java.vm.specification.version" value="1.7"/>
     <property name="sun.arch.data.model" value="32"/>
     <property name="java.home" value="/home/hebdeb/dev/jdk1.7.0_07/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -s /home/hebdeb/.m2/settings.xml clean test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -s /home/hebdeb/.m2/settings.xml install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -60,6 +60,6 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="3.798" classname="org.mahebert.maven.dao.BookDaoTest" name="testSaveContact"/>
-  <testcase time="0.033" classname="org.mahebert.maven.dao.BookDaoTest" name="testgetContact"/>
+  <testcase time="4.249" classname="org.mahebert.maven.dao.BookDaoTest" name="testSaveContact"/>
+  <testcase time="0.036" classname="org.mahebert.maven.dao.BookDaoTest" name="testgetContact"/>
 </testsuite>
