@@ -25,5 +25,14 @@ public class Book
 	public void setName(String name) {
 		this.name = name;
 	}
+	
+	public String getName1() {
+		return name1;
+	}
+	public void setName1(String name) {
+		this.name1 = name;
+	}
+	
 	private String name;
+	private String name1;
 }
