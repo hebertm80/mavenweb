@@ -1,15 +1,15 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
    <parent>
     <groupId>org.mahebert.maven</groupId>
     <artifactId>mavenparent</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <relativePath>../mavenparent/pom.xml</relativePath></parent>
   <groupId>org.mahebert.maven</groupId>
   <artifactId>mavenweb</artifactId>
   <packaging>war</packaging>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
   <name>mavenweb Maven Webapp</name>
   <url>http://maven.apache.org</url>
      
@@ -34,7 +34,7 @@
    <dependency>
       <groupId>org.mahebert.maven</groupId>
       <artifactId>mavenpersist</artifactId>
-      <version>0.0.1-SNAPSHOT</version>
+      <version>0.0.1</version>
     </dependency>
         <!-- Spring 3 dependencies -->
         <dependency>
