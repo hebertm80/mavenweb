@@ -4,11 +4,11 @@
   <parent>
     <groupId>org.mahebert.maven</groupId>
     <artifactId>mavenparent</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
   </parent>
   <groupId>org.mahebert.maven</groupId>
   <artifactId>mavenpersist</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.2-SNAPSHOT</version>
   <name>mavenpersist</name>
   <url>http://maven.apache.org</url>
   <packaging>jar</packaging>
@@ -21,7 +21,7 @@
        <dependency>
       <groupId>org.mahebert.maven</groupId>
       <artifactId>mavenmodel</artifactId>
-      <version>0.0.1</version>
+      <version>0.0.2-SNAPSHOT</version>
     </dependency>
 	<dependency>
 	   <groupId>org.hibernate</groupId>
